@@ -2,9 +2,8 @@
 using namespace std;
 
 int main() {
-    int K;
+    int K, sum = 0;
     cin >> K;
-    int sum = 0;
     for (int a = 1; a <= K; a++) {
         for (int b = 1; b <= K; b++) {
             for (int c = 1; c <= K; c++) {
