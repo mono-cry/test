@@ -21,6 +21,6 @@ int main() {
         return true;
     };
     
-    cout << n << " is " << (f(n) ? "Prime number." : "Not prime number.") << endl;
+    cout << n << " is " << (f(n) ? "PrimeNumber." : "Not primeNumber.") << endl;
 }
 
