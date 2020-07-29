@@ -14,7 +14,7 @@ int main(void){
             }
         }
     }
-    for (int k = 0; k < n; k++) {
+    for (int k = 0; k <= n; k++) {
         if (v.at(k)) {
             cout << k << " ";
         }
